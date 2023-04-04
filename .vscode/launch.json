@@ -1,0 +1,375 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "D:\\TOTVS12\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "u_HelloWorld"
+		},
+		{
+			"label": "u_Funcoes"
+		},
+		{
+			"label": "u_TesteFor"
+		},
+		{
+			"label": "u_L01Ex01"
+		},
+		{
+			"label": "u_L01Ex02"
+		},
+		{
+			"label": "u_L01Ex04"
+		},
+		{
+			"label": "u_L01Ex05"
+		},
+		{
+			"label": "u_L01Ex06"
+		},
+		{
+			"label": "u_L01Ex07"
+		},
+		{
+			"label": "u_L01Ex08"
+		},
+		{
+			"label": "u_L01Ex09"
+		},
+		{
+			"label": "u_L01Ex10"
+		},
+		{
+			"label": "u_L01Ex11"
+		},
+		{
+			"label": "u_L01Ex12"
+		},
+		{
+			"label": "u_L01Ex13"
+		},
+		{
+			"label": "u_L01Ex14"
+		},
+		{
+			"label": "u_L01Ex15"
+		},
+		{
+			"label": "u_L01Ex16"
+		},
+		{
+			"label": "u_L01Ex17"
+		},
+		{
+			"label": "u_L01Ex18"
+		},
+		{
+			"label": "u_L01Ex19"
+		},
+		{
+			"label": "u_L01Ex20"
+		},
+		{
+			"label": "u_L01Ex21"
+		},
+		{
+			"label": "u_L01Ex22"
+		},
+		{
+			"label": "u_L01Ex23"
+		},
+		{
+			"label": "u_L01Ex24"
+		},
+		{
+			"label": "u_L01Ex25"
+		},
+		{
+			"label": "u_L01Ex26"
+		},
+		{
+			"label": "u_L01Ex27"
+		},
+		{
+			"label": "u_L01Ex28"
+		},
+		{
+			"label": "u_L01Ex29"
+		},
+		{
+			"label": "u_L01Ex30"
+		},
+		{
+			"label": "u_L01Ex31"
+		},
+		{
+			"label": "u_L01Ex32"
+		},
+		{
+			"label": "u_L01Ex34"
+		},
+		{
+			"label": "u_L01Ex35"
+		},
+		{
+			"label": "u_L01Ex36"
+		},
+		{
+			"label": "u_L01Ex37"
+		},
+		{
+			"label": "u_L01Ex38"
+		},
+		{
+			"label": "u_L01Ex39"
+		},
+		{
+			"label": "u_L02Ex01"
+		},
+		{
+			"label": "u_L02Ex02"
+		},
+		{
+			"label": "u_L02Ex03"
+		},
+		{
+			"label": "u_L02Ex04"
+		},
+		{
+			"label": "u_L02Ex05"
+		},
+		{
+			"label": "u_L02Ex06"
+		},
+		{
+			"label": "u_L02Ex07"
+		},
+		{
+			"label": "u_L02Ex08"
+		},
+		{
+			"label": "u_L02Ex09"
+		},
+		{
+			"label": "u_L02Ex10"
+		},
+		{
+			"label": "u_L02Ex11"
+		},
+		{
+			"label": "u_L02Ex12"
+		},
+		{
+			"label": "u_L02Ex13"
+		},
+		{
+			"label": "u_TstNome"
+		},
+		{
+			"label": "u_zPulo2"
+		},
+		{
+			"label": "u_somatoria_par_impar"
+		},
+		{
+			"label": "u_L02Ex14"
+		},
+		{
+			"label": "u_TesteFi"
+		},
+		{
+			"label": "u_L02Ex15"
+		},
+		{
+			"label": "testetela"
+		},
+		{
+			"label": "u_testetela"
+		},
+		{
+			"label": "u_testedo14"
+		},
+		{
+			"label": "u_BusProdGen"
+		},
+		{
+			"label": "u_L03ex01"
+		},
+		{
+			"label": "u_L03ex02"
+		},
+		{
+			"label": "u_L03ex03"
+		},
+		{
+			"label": "u_L03ex04"
+		},
+		{
+			"label": "u_L03ex05"
+		},
+		{
+			"label": "u_L03ex06"
+		},
+		{
+			"label": "u_L03Ex07"
+		},
+		{
+			"label": "u_L03Ex09"
+		},
+		{
+			"label": "u_L03Ex10"
+		},
+		{
+			"label": "u_L03Ex11"
+		},
+		{
+			"label": "u_L03Ex13"
+		},
+		{
+			"label": "u_L03ex12"
+		},
+		{
+			"label": "u_L03ex14"
+		},
+		{
+			"label": "u_L03ex15"
+		},
+		{
+			"label": "u_L03ex16"
+		},
+		{
+			"label": "u_L03ex17"
+		},
+		{
+			"label": "u_L03ex18"
+		},
+		{
+			"label": "u_MeuTeste"
+		},
+		{
+			"label": "u_L03Ex19"
+		},
+		{
+			"label": "u_L03Ex08"
+		},
+		{
+			"label": "u_IntVisual"
+		},
+		{
+			"label": "sigacom"
+		},
+		{
+			"label": "u_L04Ex01"
+		},
+		{
+			"label": "u_zLogin"
+		},
+		{
+			"label": "u_L04Ex02"
+		},
+		{
+			"label": "u_L04Ex03"
+		},
+		{
+			"label": "u_L04Ex04"
+		},
+		{
+			"label": "u_L04Ex05"
+		},
+		{
+			"label": "u_L04Ex06"
+		},
+		{
+			"label": "u_L04Ex07"
+		},
+		{
+			"label": "u_L04Ex08"
+		},
+		{
+			"label": "u_L04Ex09"
+		},
+		{
+			"label": "u_L04Ex10"
+		},
+		{
+			"label": "u_L04Ex11"
+		},
+		{
+			"label": "u_L04Ex12"
+		},
+		{
+			"label": "u_L04Ex13"
+		},
+		{
+			"label": "u_L04Ex14"
+		},
+		{
+			"label": "u_L05Ex01"
+		},
+		{
+			"label": "u_L05Ex02"
+		},
+		{
+			"label": "u_L05Ex03"
+		},
+		{
+			"label": "u_L05Ex04"
+		},
+		{
+			"label": "u_L05Ex05"
+		},
+		{
+			"label": "u_L05Ex06"
+		},
+		{
+			"label": "u_L05Ex07"
+		},
+		{
+			"label": "u_L05Ex08"
+		},
+		{
+			"label": "u_L05Ex09"
+		},
+		{
+			"label": "u_L05Ex10"
+		},
+		{
+			"label": "u_L05Ex11"
+		},
+		{
+			"label": "u_L05Ex12"
+		},
+		{
+			"label": "u_L05Ex13"
+		},
+		{
+			"label": "u_L05Ex14"
+		},
+		{
+			"label": "u_L05Ex15"
+		},
+		{
+			"label": "u_L05Ex16"
+		},
+		{
+			"label": "u_L05Ex17"
+		},
+		{
+			"label": "sigafat"
+		},
+		{
+			"label": "sigamdi"
+		}
+	],
+	"lastProgramExecuted": "sigamdi"
+}
