@@ -1,10 +1,10 @@
 #INCLUDE 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function PSAY
-	Exemplo de relatùrio utilizando PSAY
+/*/{Protheus.doc} User Function PSAY2
+	Exercicio numero 2 da lista 9
 	@type  Function
-	@author Muriel Zounar
-	@since 29/03/2023
+	@author Lucas Leal
+	@since 04/04/2023
 	/*/
 User Function PSAY2()        
 	Local cTitulo       := 'Cadastros de Produtos'
