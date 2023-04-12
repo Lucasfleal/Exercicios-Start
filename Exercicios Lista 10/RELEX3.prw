@@ -16,7 +16,7 @@ Return
 Static Function GeraRelatorio()
     local oReport := TReport():NEW('RELEX3', 'Relatório do Pedido de Compra',, {|oReport| ImprimeDados(oReport)}, 'Relatório para Impressão do Pedido de Compra', .F.)
     local oSection1   := TRSection():NEW(oReport, 'Pedido')
-    local oSection2   := TRSection():NEW(oSection1, 'Itens')
+    local oSection2   := TRSection():NEW(oSection1, 'Itens') 
 
     TRCELL():New(oSection1, 'C7_NUM'     , 'SC7', 'Num Pedido'       )
     TRCELL():New(oSection1, 'C7_EMISSAO' , 'SC7', 'Data de Emissao'  )
