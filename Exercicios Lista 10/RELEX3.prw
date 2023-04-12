@@ -36,7 +36,7 @@ Return oReport
 
 Static Function ImprimeDados(oReport)
     local oSection1  := oReport:Section(1)
-    local oSection2  := oReport:Section(2)
+    local oSection2  := oSection1:Section(1)
 
     DbSelectArea('SC7')
 
