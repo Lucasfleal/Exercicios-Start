@@ -65,7 +65,9 @@ Static Function fImporta()
             oArquivo:Open()
  
             While (oArquivo:HasLine())
- 
+                aVetor     := {}
+                lMsErroAuto := .F.
+
                 nLinhaAtu++
                 IncProc("Analisando linha " + cValToChar(nLinhaAtu) + " de " + cValToChar(nTotLinhas) + "...")
                  
@@ -77,23 +79,24 @@ Static Function fImporta()
  
                     //Zera as variaveis
                     cCod    := aLinha[nPosCodigo]
-                    cDesc   := aLinha[nPosDesc]
+                    cDesc   := SUBSTR(aLinha[nPosDesc], 1, 30)
                     cTipo   := aLinha[nPosTipo]
                     cUni    := aLinha[nPosUni]
-                    cPRV1   := aLinha[nPosPRV1]
+                    cPRV1   := VAL(aLinha[nPosPRV1])
                     cStatus := aLinha[nPosStatus]
     
                     if UPPER(cStatus) == 'A'
                         // Adicionando dados ao Array
-                        Aadd(aVetor, {'B1_FILIAL', xFilial('SB1'), NIL})
-                        Aadd(aVetor, {'B1_COD', cCod, NIL})
-                        Aadd(aVetor, {'B1_DESC', cDesc, NIL})
-                        Aadd(aVetor, {'B1_TIPO', cTipo, NIL})
-                        Aadd(aVetor, {'B1_UM', cUni, NIL})
-                        Aadd(aVetor, {'B1_PRV1', cPRV1, NIL})
+                        Aadd(aVetor, {'B1_FILIAL',   xFilial('SB1'), NIL})
+                        Aadd(aVetor, {'B1_COD',     cCod,            NIL})
+                        Aadd(aVetor, {'B1_DESC',    cDesc,           NIL})
+                        Aadd(aVetor, {'B1_TIPO',    cTipo,           NIL})
+                        Aadd(aVetor, {'B1_UM',      cUni,            NIL})
+                        Aadd(aVetor, {'B1_PRV1',    cPRV1,           NIL})
+                        Aadd(aVetor, {'B1_LOCPAD',  '01',            NIL})
                         
                         // Executando a rotina automatica  
-                        MSExecAuto({|x, y| MATA030(x, y)}, aVetor, nOper) 
+                        MSExecAuto({|x, y| MATA010(x, y)}, aVetor, nOper) 
 
                          if lMsErroAuto
                             MostraErro()
@@ -111,7 +114,5 @@ Static Function fImporta()
     Else
         MsgStop("Arquivo não pode ser aberto!", "Atenção")
     EndIf
-    
-    RestArea(SB1)
     RestArea(aArea)
 Return
